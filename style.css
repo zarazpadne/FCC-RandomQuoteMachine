@@ -1,0 +1,89 @@
+body {
+  background-image: url(http://livewallpaper.info/wp-content/uploads/2015/12/flower-background-hd-1366x768-6.jpg) ;
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover; 
+min-height: 100vh;
+}
+
+#head-txt {
+  text-align: center;
+  margin-top: 90px;
+  color: #fff;
+  font-family: Cinzel;
+  font-size: 350%;
+  text-shadow: 2px 1px 3px #d9d9d9;
+}
+
+#quote-box {
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  color: #4d4d4d; /*font color*/
+  margin-top: 30px;
+  width: 100%;
+  background: rgba(0,0,0,.5);
+}
+
+#quote-text {
+  color: #e6e6e6;
+  font-size: 45px;
+  font-family: Junge;
+}
+
+#quote-author {
+    color: #b3b3b3;
+  font-size: 35px;
+  font-family: Great Vibes;
+  }
+
+#button-wraper {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: border-color 0.3s ease-out,
+              color 0.3s ease-out;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff; 
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffe6ee;
+  border-color: #ffe6ee;
+  transition: border-color 0.4s ease-in,
+              color 0.4s ease-in;
+}
+
+#tweet-icon {
+  width: 16px;
+  margin-right: 3px;
+}
+
+#author {
+  position: absolute;
+    bottom: 0;
+    right: 15px;
+  text-align: right;
+  color: #bfbfbf;
+  font-family: Junge;
+  font-size: 100%;
+}
+
+#name {
+  font-family: Great Vibes;
+  color: #b3b3b3;
+}
